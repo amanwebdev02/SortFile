@@ -52,7 +52,7 @@ At the end we will have a complete sorted Output File.
 
 Test cases have been added in the project in test folder.
 ```shell
-Input File is customer.txt, outputfile is output.txt, will be generated if customer.txt is changed and run locally.
+Input File is customer.txt, outputfile for current customer.txt is output.txt, will be regenerated customer.txt is changed and run locally.
 ```
 
 
