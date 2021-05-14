@@ -43,16 +43,16 @@ Sorting is basically composed of two phases:
 
 ```shell
 The basic idea of this implementation is that we logically partition 
-the file into smaller slices, each of which is then sorted in memory and written to file. 
-MinHeap or **Min Priority Queue** is used to pick first p (if p represents number of partitions) Customer objects.
-Idea is to fetch the top element which will be minimum, add it to the output file and then refetch the next line from this partition.
+the file into smaller slices, each of which will sorted in memory and written to a temporary file. 
+MinHeap or Min Priority Queue is used to pick first p (if p represents number of partitions) Customer objects.
+Idea is to fetch the Customer which will be minimum according to userid, add it to the output file and then refetch the next line from this partition.
 At the end we will have a complete sorted Output File.
 ```
 
 
 Test cases have been added in the project in test folder.
 ```shell
-Input File is customer.txt, outputfile for current customer.txt is output.txt, will be regenerated customer.txt is changed and run locally.
+Input File is customer.txt, outputfile is output.txt. It will be regenerated when run locally.
 ```
 
 
