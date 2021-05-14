@@ -23,9 +23,9 @@ Assuming your project is in a folder named "Downloads".
 
  
 The files customer.txt and output.txt are stored at file path mentioned in "AppConstant.java" file.
- Go to This file and change the prefix (FILE_PATH_PREFIX) in this file to point current local directory where project is cloned.
+ Go to This file (AppConstant.java) and change the prefix (FILE_PATH_PREFIX) in this file to point current local path where project is cloned.
 ```shell
-Prefix : /Users/mmt7465/Downloads/SortFile
+FILE_PATH_PREFIX : /Users/mmt7465/Downloads/SortFile
 File : src/main/java/com/intercom/filesort/constants/AppConstant.java
 ```
 
