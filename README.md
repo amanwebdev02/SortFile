@@ -66,7 +66,15 @@ cd SortFile
 mvn spring-boot:run
 ```
 
+## Running the test locally
 
+
+You can use the [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so:
+
+```shell
+cd SortFile
+mvn test
+```
 ### Reference Documentation
 For further reference, please consider the following sections:
 

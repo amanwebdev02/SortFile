@@ -1,7 +1,10 @@
-package com.intercom.filesort.constants;
+package com.example.testing.constants;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class AppConstant {
-    public static final String FILE_PATH_PREFIX = "/Users/mmt7465/Downloads/SortFile";
+    /*public static final String FILE_PATH_PREFIX = "/Users/mmt7465/Desktop/SortFile";
 
     public static String INPUT_FILE_NAME = FILE_PATH_PREFIX + "/src/main/resources/customer.txt";
     public static final String TEST_INPUT_FILE_EMPTY = FILE_PATH_PREFIX + "/src/main/resources/customer-test-empty-file.txt";
@@ -23,5 +26,8 @@ public class AppConstant {
     public static final String TEMP_FILE = "temp-file-";
     public static final int EARTH_RADIUS_IN_KM = 6371;
     public static final int DISTANCE_LIMIT = 100;
-    public static long TEMP_FILE_SIZE = 10000l;
+    public static long TEMP_FILE_SIZE = 10000l;*/
+
+
+
 }
